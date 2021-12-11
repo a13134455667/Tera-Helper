@@ -747,7 +747,8 @@ module.exports = function TeraHelper(mod) {
 			if (obj.Zone != mod.game.me.zone) return
 			e.loc = obj.loc
 			e.w = obj.w * Math.PI
-			mod.command.message(`自动传送至: ` + obj.name)
+			mod.command.message(` \n 使用副本自动传送采集点请关闭<font color="#00FF00">自动尾王</font> `)
+			mod.command.message(` \n 自动传送至: ` + obj.name)
 		})
 
 		return true
